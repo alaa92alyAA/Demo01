@@ -14,31 +14,18 @@ public class PersonService {
 	public PersonService() {
 		Person p = new Person();
 		p.setId("1");
-		p.setAge(21);
+		p.setAge(50);
 		p.setFirstName("Gamal");
 		p.setLastName("Mohammad");
 		persons.add(p);
 
 		p = new Person();
 		p.setId("2");
-		p.setAge(25);
-		p.setFirstName("Mohammad");
-		p.setLastName("Shalaby");
+		p.setAge(8);
+		p.setFirstName("Senior");
+		p.setLastName("Steps");
 		persons.add(p);
 		
-		p = new Person();
-		p.setId("3");
-		p.setAge(25);
-		p.setFirstName("Basem");
-		p.setLastName("Salama");
-		persons.add(p);
-		
-		p = new Person();
-		p.setId("4");
-		p.setAge(25);
-		p.setFirstName("AbdulHalim");
-		p.setLastName("Mahmoud");
-		persons.add(p);
 		
 	}
 	public Person getPerson(String id) {
