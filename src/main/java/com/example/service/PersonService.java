@@ -25,6 +25,13 @@ public class PersonService {
 		p.setFirstName("Senior");
 		p.setLastName("Steps");
 		persons.add(p);
+
+		p = new Person();
+		p.setId("3");
+		p.setAge(8);
+		p.setFirstName("Devops");
+		p.setLastName("Group");
+		persons.add(p);
 		
 		
 	}
