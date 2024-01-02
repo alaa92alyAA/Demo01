@@ -19,6 +19,14 @@ public class PersonService {
 		p.setLastName("Mohammad");
 		persons.add(p);
 
+
+		p = new Person(shahenda);
+		p.setId("3");
+		p.setAge(8);
+		p.setFirstName("Devops");
+		p.setLastName("Group");
+		persons.add(p);
+
 		p = new Person();
 		p.setId("2");
 		p.setAge(8);
